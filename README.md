@@ -1,5 +1,7 @@
 # HltvParserr
 library to get top players from hltv, (Id,Name,KD, Maps played...)
+(NuGet Package) PM> Install-Package HltvParserr -Version 1.0.0
+
 ![image](https://user-images.githubusercontent.com/52431123/162681399-97299510-709f-4182-8275-19fa5bc2536a.png)
 
 

@@ -7,7 +7,8 @@ library to get top players from hltv, (Id,Name,KD, Maps played...)\
 
         public static async Task Main()
         {
-            var result = await GetProPlayers();
+            HltvParser parser = new HltvParser();
+            var result = await parser.GetTopPlayersAsync(100);
 
             foreach (var top in result)
             {
@@ -18,14 +19,6 @@ library to get top players from hltv, (Id,Name,KD, Maps played...)\
 
             Console.WriteLine(result.Count);
 
-        }
-
-        public static async Task<List<Player>> GetProPlayers()
-        {
-            HltvParser parser = new HltvParser();
-            var result = await parser.GetTopPlayersAsync(20);
-
-            return result;
         }
         
         public class Player

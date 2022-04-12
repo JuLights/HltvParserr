@@ -35,53 +35,5 @@ namespace HltvParserr
 			return Players;
 
 		}
-
-		//public static async Task<List<PlayersGear>> GetPlayersGearAsync()
-		//{
-		//	HtmlDocument htmlDocument = new HtmlDocument();
-		//	var docPath = Environment.CurrentDirectory + "\\HtmlDoc\\gearList.html";
-		//	htmlDocument.LoadHtml(await File.ReadAllTextAsync(docPath));
-
-		//	var trPath = @"//*[@id=""table_1""]/tbody";
-		//	var trNodes = htmlDocument.DocumentNode.SelectNodes(trPath).ToList();
-		//	List<PlayersGear> PlayersGear = new List<PlayersGear>();
-		//	int count = 0;
-
-		//	for (int i = 1; i < trNodes[0].ChildNodes.Count; i++)
-		//	{
-
-		//		var nodes = trNodes[0].ChildNodes[i].ChildNodes;
-		//		PlayersGear.Add(new PlayersGear
-		//		{
-		//			//Id = count,
-		//			Team = nodes[0].InnerText,
-		//			Name = nodes[1].InnerText,
-		//			Role = nodes[2].InnerText,
-		//			Mouse = nodes[3].InnerText,
-		//			MouseHz = nodes[4].InnerText,
-		//			DPI = nodes[5].InnerText,
-		//			Sens = nodes[6].InnerText,
-		//			eDPI = nodes[7].InnerText,
-		//			ZoomSens = nodes[8].InnerText,
-		//			Accel = nodes[9].InnerText,
-		//			WinSens = nodes[10].InnerText,
-		//			RawInput = nodes[11].InnerText,
-		//			Monitor = nodes[12].InnerText,
-		//			MonitorHz = nodes[13].InnerText,
-		//			GPU = nodes[14].InnerText,
-		//			Resolution = nodes[15].InnerText,
-		//			AspectRatio = nodes[16].InnerText,
-		//			ScalingMode = nodes[17].InnerText,
-		//			MousePad = nodes[18].InnerText,
-		//			KeyBoard = nodes[19].InnerText,
-		//			Headset = nodes[20].InnerText,
-		//			CFG = nodes[21].InnerText
-		//		});
-		//		count++;
-		//	}
-
-		//	return PlayersGear;
-		//}
-
 	}
 }

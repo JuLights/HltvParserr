@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HltvParserr", "HltvParserr\HltvParserr.csproj", "{EDC7FF67-8EDC-4ABE-B299-F9C24D7CB479}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestHltvParserr", "ConsoleApp1\TestHltvParserr.csproj", "{ABDA9E3D-D43D-4C4A-A6E2-F38AA7104C84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestHltvParserr", "TestHltvParserr\TestHltvParserr.csproj", "{19631680-9B0F-4CAB-A837-4D00DAF3439D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{EDC7FF67-8EDC-4ABE-B299-F9C24D7CB479}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDC7FF67-8EDC-4ABE-B299-F9C24D7CB479}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDC7FF67-8EDC-4ABE-B299-F9C24D7CB479}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ABDA9E3D-D43D-4C4A-A6E2-F38AA7104C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABDA9E3D-D43D-4C4A-A6E2-F38AA7104C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ABDA9E3D-D43D-4C4A-A6E2-F38AA7104C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ABDA9E3D-D43D-4C4A-A6E2-F38AA7104C84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19631680-9B0F-4CAB-A837-4D00DAF3439D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19631680-9B0F-4CAB-A837-4D00DAF3439D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19631680-9B0F-4CAB-A837-4D00DAF3439D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19631680-9B0F-4CAB-A837-4D00DAF3439D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

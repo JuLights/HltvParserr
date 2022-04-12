@@ -4,29 +4,22 @@ namespace testing
 {
     public static class Program
     {
-        //public static List<Player> _players = new List<Player>();
         public static async Task Main()
-        {
-            var result = await GetTopsAsync();
-
-            foreach(var top in result)
-            {
-                Console.WriteLine(top.Name);
-            }
-
-            Console.WriteLine(result.Count);
-            
-        }
-
-        
-
-        public static async Task<List<Player>> GetTopsAsync()
         {
             HltvParser hltvParser = new HltvParser();
             var result = await hltvParser.GetTopPlayersAsync(100);
 
-            return result;
+            foreach (var top in result)
+            {
+                Console.WriteLine(
+                "Rank {0}, Name {1}, Maps Played {2}, Rounds {3}, Player KD {4}, KD_Difference {5} , Rating {6}"
+                , top.Id, top.Name, top.Maps, top.Rounds, top.KD, top.KD_Diff, top.Rating
+                );
+            }
 
+            Console.WriteLine(result.Count);
+            Console.ReadLine();
+            
         }
        
     }

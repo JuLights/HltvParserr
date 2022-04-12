@@ -1,13 +1,21 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Authors>$(JuLights)</Authors>
-    <Description>unofficial package for getting Top players'(Id,Name,KD,maps played...) from hltv.org</Description>
+    <Authors>JuLights</Authors>
+    <Description>an unofficial package for getting Top players'(Id,Name,KD,maps played...) from hltv.org</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/JuLights/HltvParserr</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Hltv, hltv parser, hltvparser, parsehltv, csgo, scrapper, hltvscrapper</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/JuLights/HltvParserr</PackageProjectUrl>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <PackageReleaseNotes>call GetTopPlayersAsync() function pass it the filter value for example : 100, get top 100 player</PackageReleaseNotes>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

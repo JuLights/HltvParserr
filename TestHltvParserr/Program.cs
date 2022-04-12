@@ -9,11 +9,11 @@ namespace testing
             HltvParser hltvParser = new HltvParser();
             var result = await hltvParser.GetTopPlayersAsync(100);
 
-            foreach (var top in result)
+            foreach (var topPlayer in result)
             {
                 Console.WriteLine(
                 "Rank {0}, Name {1}, Maps Played {2}, Rounds {3}, Player KD {4}, KD_Difference {5} , Rating {6}"
-                , top.Id, top.Name, top.Maps, top.Rounds, top.KD, top.KD_Diff, top.Rating
+                , topPlayer.Id, topPlayer.Name, topPlayer.Maps, topPlayer.Rounds, topPlayer.KD, topPlayer.KD_Diff, topPlayer.Rating
                 );
             }
 
